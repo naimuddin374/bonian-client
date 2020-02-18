@@ -1,0 +1,629 @@
+/*=======================================================================================
+    Responsive css
+=========================================================================================*/
+
+@media only screen and (min-width: 1920px) and (max-width: 2200px) {}
+
+@media only screen and (min-width: 1501px) and (max-width: 1919px) {}
+
+
+/* Layout: Max 1500px. */
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+    h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    h2 {
+        font-size: 35px;
+        line-height: 46px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1364px) {
+    /* home page */
+    .csr-thumb {
+        width: 100%;
+    }
+    .single-csr-thumbnail-content {
+        display: block !important;
+    }
+    .csr-large-img img {
+        height: auto;
+    }
+    .csr-area:after {
+        display: block;
+    }
+    .csr-thumb-content {
+        padding: 10px 7px;
+        padding-right: 0;
+    }
+    .single-csr-thumbnail-content {
+        padding-right: 14px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 36px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .section-title-padding {
+        padding-bottom: 30px;
+    }
+    /* manufacturing process */
+    .single-manufacturing-process {
+        display: block;
+    }
+    .manufacturing-process-img img {
+        width: 100%;
+    }
+    .manufacturing-process-img {
+        width: 100%;
+    }
+    .welcome-heading-content {
+        padding-bottom: 0;
+    }
+    .bonian-mission-content {
+        padding: 0px 10px;
+    }
+    .mission-vision-padding {
+        padding: 30px 0;
+    }
+    .contact-page-form {
+        padding: 0;
+    }
+    /* compliance page */
+    .single-control-quality-procedure h3 {
+        font-size: 16px;
+    }
+    /* orgamogram page */
+    img.organogram-img {
+        margin: 30px 0;
+    }
+    /* countries export page */
+    .exports-img {
+        height: auto;
+    }
+    /* how works page */
+    .manufacturing-process-content {
+        padding: 17px;
+    }
+    /* why use page */
+    div#moq-content {
+        margin-left: 10px;
+    }
+    .span-mode span {
+        margin-left: 0;
+    }
+    .span-mode h3 {
+        font-size: 17px;
+    }
+    /* home page */
+    .creative-agency-wrapper-content {
+        padding: 20px 17px;
+    }
+}
+
+@media only screen and (min-width: 1365px) and (max-width: 1599px) {
+    /* home page */
+    .single-csr-thumbnail-content {
+        display: flex !important;
+    }
+    .csr-thumb {
+        width: 300px;
+    }
+    .csr-area:after {
+        content: "";
+        position: absolute;
+        right: 0px;
+        bottom: 80px;
+        border-left: 64px solid transparent;
+        border-right: 0px solid #00abc9;
+        border-bottom: 420px solid #00abc9;
+        border-top: 0px solid #00abc9;
+        height: 421px;
+    }
+    .csr-large-img:after {
+        border-width: 0px 80px 452px 118px;
+    }
+    .csr-thumb-content {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section-padding {
+        padding: 60px 0;
+    }
+    .section-title-padding {
+        padding-bottom: 30px;
+    }
+    /* responsive menu */
+    .navbar-light .navbar-toggler {
+        right: 18px;
+        position: relative;
+    }
+    ul#main-menu li a {
+        display: inline-block;
+        padding: 8px 10px;
+        margin-left: 10px;
+        color: #fff;
+    }
+    div#navtogglerItemItem {
+        position: absolute;
+        top: 100%;
+        background: #252424;
+        width: 100%;
+        left: 0;
+    }
+    /* product page */
+    .top-rated-single-product {
+        display: block;
+    }
+    .bonian-mission-content {
+        padding: 40px 0;
+    }
+    .mission-vision-feature-img {
+        margin-top: 40px;
+    }
+    .contact-page-form {
+        padding: 0;
+    }
+    /* compliance page */
+    .compliance-feature-img {
+        margin-top: 35px;
+    }
+    .bonian-procedur-management {
+        padding: 20px 0px;
+    }
+    /* orgamogram page */
+    img.organogram-img {
+        margin: 30px 0;
+    }
+    /* how work page */
+    img.dept-feature-img {
+        margin: 20px 0;
+    }
+    /* why us page */
+    .customer-love-content h3 {
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    .small-screen.no-padding {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    div#moq-content {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+    .small-screen.no-padding {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    div#shipping-mode {
+        margin-left: 0;
+        margin-top: 15px;
+        margin-right: 0;
+    }
+    /* team member page */
+    .single-slider-advisor {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    /* sustainability page */
+    .sus-goal-heading {
+        font-size: 25px;
+        line-height: 38px;
+    }
+    .sus-ambition-heading {
+        font-size: 16px;
+        line-height: 29px;
+    }
+    .eco-feature-img {
+        margin: 20px 0px;
+    }
+    .sustainability-policy-content {
+        padding: 20px 0px;
+    }
+    .sus-policy-align-center:after {
+        display: none;
+    }
+    /* home page */
+    .non-padding.no-padding {
+        padding: 0 15px 0 15px;
+    }
+    .creative-agency-wrapper-content {
+        left: 0;
+        margin-top: 20px;
+    }
+    .bonian-single-service {
+        margin-bottom: 50px;
+        padding: 10px;
+    }
+    .single-fact {
+        margin-bottom: 20px;
+    }
+    .csr-area:after {
+        display: none;
+    }
+    .single-csr-thumbnail-content {
+        margin-top: 25px;
+    }
+}
+
+
+/* Small Device : 480px. */
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    h5 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    h6 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .section-title>h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section-title-padding {
+        padding-bottom: 20px;
+    }
+    .section-padding-bottom {
+        padding-bottom: 40px;
+    }
+    .section-padding-top {
+        padding-bottom: 40px;
+    }
+    .navbar-light .navbar-toggler {
+        right: 18px;
+        position: relative;
+    }
+    .bonian-mission-content {
+        padding: 30px 10px;
+    }
+    .mission-vision-feature-img {
+        margin-top: 30px;
+    }
+    .widget-wrapper {
+        margin-bottom: 34px;
+    }
+    /* menu responsive */
+    a.navbar-brand.site-logo-header {
+        max-width: 145px;
+    }
+    .navbar-collapse.collapse.show {
+        position: absolute;
+        background: #fff;
+        top: 100%;
+        width: 100%;
+    }
+    button.navbar-toggler:focus {
+        outline: none !important;
+        border: 1px solid #35ABA7 !important;
+    }
+    nav#mainMenu {
+        padding: 10px 0;
+    }
+    .header-social-media.social-link {
+        display: none;
+    }
+    div#navtogglerItemItem {
+        position: absolute;
+        top: 100%;
+        background: #252424;
+        width: 100%;
+        left: 0;
+    }
+    ul#main-menu li {
+        margin-right: 0;
+    }
+    ul#main-menu li a {
+        display: inline-block;
+        padding: 8px 10px;
+        margin-left: 10px;
+        color: #fff;
+    }
+    /* download page */
+    .single-file-download {
+        display: block;
+    }
+    .single-download-file-content {
+        width: 100%;
+    }
+    .download-files-button-area {
+        margin-top: 17px;
+    }
+    /* faq page */
+    button.btn.btn-link {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    /* manufacturing page */
+    .single-manufacturing-process {
+        display: block;
+        margin-bottom: 60px;
+    }
+    /* product page */
+    .top-rated-single-product {
+        display: block;
+    }
+    .contact-page-form {
+        padding: 0;
+    }
+    /*  contact page */
+    .contact-page-address-inner ul li {
+        margin-bottom: 20px;
+    }
+    /* compliance page */
+    .compliance-feature-img {
+        margin-top: 30px;
+    }
+    /* compliance page*/
+    .management-step-area:after {
+        width: 100%;
+    }
+    .bonian-procedur-management {
+        padding: 20px 0px;
+    }
+    /* faq page */
+    h3.faq-heading {
+        font-size: 18px;
+    }
+    /* organogram page */
+    .organogram-img {
+        margin: 20px 0;
+    }
+    /* countries exports */
+    .exports-img {
+        height: auto;
+        margin-bottom: 0;
+    }
+    /* how works */
+    .manufacturing-process-img {
+        min-width: 100%;
+    }
+    .mer-quality-area {
+        padding: 20px 00px;
+    }
+    .single-apart-feature {
+        display: block;
+    }
+    .dept-feature-img {
+        margin: 20px 0;
+    }
+    .manufacturing-process-content {
+        padding: 17px;
+    }
+    /* why us page */
+    .single-customer-love-quote {
+        display: block;
+    }
+    .customer-love-content h3 {
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .what-we-offer-single-product {
+        min-width: 100%;
+    }
+    .quick-dedicated-team-content {
+        padding: 100px 10px;
+    }
+    div#moq-content {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .small-screen.no-padding {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    div#shipping-mode {
+        margin-left: 0;
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    .span-mode span {
+        margin-left: 0;
+    }
+    /* team member page */
+    .single-slider-advisor {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .advisor-team-member-content h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .client-img {
+        margin-bottom: 25px;
+    }
+    .single-client-says {
+        padding: 0;
+    }
+    /* sustainability page */
+    .sus-goal-heading {
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 500;
+    }
+    .sus-ambition-heading {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .sustainability-ambition-area .container .row:nth-child(even) {
+        display: block;
+    }
+    .sustainability-ambition-content {
+        margin-bottom: 25px;
+    }
+    .sus-policy-align-center:after {
+        display: none;
+    }
+    .sustainability-policy-content {
+        padding: 20px 0px;
+    }
+    .eco-feature-img {
+        margin: 25px 0;
+    }
+    .single-sustainability-logo-content {
+        margin-bottom: 30px;
+    }
+    /* home page */
+    .creative-agency-wrapper-content {
+        left: 0;
+        margin-top: 21px;
+        padding: 10px;
+    }
+    .bonian-single-service {
+        padding: 20px 20px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .single-fact {
+        margin-bottom: 15px;
+    }
+    .csr-large-img img {
+        height: auto;
+    }
+    .csr-area:after {
+        display: none;
+    }
+    .single-csr-thumbnail-content {
+        display: block !important;
+    }
+    .csr-thumb-content {
+        padding: 0;
+        margin-top: 18px;
+    }
+    .csr-thumb {
+        width: 100%;
+    }
+    .contact-shape-bg {
+        padding: 40px 0;
+    }
+    .office-address-content {
+        margin-bottom: 40px;
+    }
+    .office-address-content h3 {
+        font-size: 16px;
+    }
+    /* csr page */
+    .csr-slider-area-right {
+        margin-top: 40px;
+    }
+    .thumb-container {
+        padding: 0;
+    }
+    .thumb-content-csr h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .csr-slider-area-right .rcs-custom-scroll .single-csr-thumbnail-content {
+        margin-bottom: 60px !important;
+    }
+    /* top management team page */
+    .md-message-content h3 {
+        font-size: 24px;
+    }
+    .md-message-content h5 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /*===========================================================
+        responsive drop down menu
+    =============================================================*/
+    ul.dropdown li {
+        display: block !important;
+        float: none !important;
+        padding: 0px 20px !important;
+    }
+    ul.dropdown {
+        height: 150px;
+        overflow-x: scroll;
+    }
+    li#full-width {
+        margin-left: 20px;
+        color: #fff;
+    }
+    ul#main-menu li {
+        padding: 0px 10px;
+    }
+    ul#main-menu a.link-item.active:before {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 767px) {
+    a.navbar-brand.site-logo-header {
+        max-width: 100%;
+    }
+}
+
+@media only screen and (min-width: 471px) and (max-width: 767px) {
+    a.navbar-brand.site-logo-header {
+        max-width: 164px;
+        margin-right: 61px;
+    }
+}
+
+
+/* Small Device : 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
